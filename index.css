@@ -1,6 +1,32 @@
 .navbar {
   background-color: darkcyan;
 }
-.coverPhoto {
-  background-image: cover;
+* {
+  height: 100%;
+}
+.cust-main-container,
+.cust-main-container > .row {
+  height: 100%;
+}
+
+.bg {
+  background-image: url("./images/cover.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
+.col-sm-2 {
+  border: 1px solid blue;
+}
+
+.col-sm-10 {
+  border: 1px solid green;
+}
+h1 {
+  text-align: center;
 }
