@@ -1,32 +1,13 @@
 .navbar {
   background-color: darkcyan;
 }
-* {
-  height: 100%;
-}
-.cust-main-container,
-.cust-main-container > .row {
-  height: 100%;
-}
 
-.bg {
-  background-image: url("./images/cover.jpg");
+#highlights {
+  background-image: url("./images/cover1.jpg");
+  background-position: center;
   background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
+  background-size: 100%;
 }
-
-.col-sm-2 {
-  border: 1px solid blue;
-}
-
-.col-sm-10 {
-  border: 1px solid green;
-}
-h1 {
+h3 {
   text-align: center;
 }
