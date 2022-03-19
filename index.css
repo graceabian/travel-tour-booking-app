@@ -15,3 +15,11 @@ h3 {
 #text {
   text-align: center;
 }
+
+#header {
+  font-weight: bold;
+}
+
+#tours {
+  background-color: darkcyan;
+}
