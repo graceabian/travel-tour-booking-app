@@ -2,12 +2,6 @@
   background-color: darkcyan;
 }
 
-#highlights {
-  background-image: url("./images/cover1.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
 h3 {
   text-align: center;
 }

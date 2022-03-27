@@ -10,15 +10,18 @@
       <link rel="stylesheet" href="./index.css">
       <!--google fonts-->
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
-      <title>trave-tour booking app</title>
+      <title>Travel and Tour</title>
     </head>
      <body>
         
 
         <!--Navbar start-->
-        <nav class="navbar navbar-expand-lg navbar-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
           <div class="container">
+              <img src="./images/logo.jpg"
+                     alt="" width="35" class="img-fluid mt-4 mt-md-1 rounded-circle">
             <a class="navbar-brand" href="#">TRAVELPINAS!</a>
+        
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -42,77 +45,29 @@
          <!-- Navbar end-->
 
          <!--Main Content Start Section-->
-         <div class="container-fluid">
+        <div class="container-fluid">
           <div id="cover" class="row">
              <div class="col-xl-12">
                 <!-- Profile Section Start -->
                 <div class="text-light min-vh-100 p-2" id="highlights">
-                </div>
-                <div>
-                  <h3> Trusted travel and tour agency in the Philippines</h3>
+                        <img src="./images/cover1.jpg" width="200"
+                        alt="" class="card-img-top">
+                 </div>
+                <div id="highlights">
+                  <h3 id="typing"> Trusted travel and tour agency in the Philippines</h3>
                   <p id="text">One of the top travel featuring travel inspiration, guides and itineraries. I want to help you maximize your time, budget & enjoy the most out of your trips.</p>
                 </div>
               </div>
-            </div>
           </div>
+        </div>
          <!--Main Content end Section-->
 
          <!--Second Content start-->
-         
-         <!-- other  project section start-->
-         <div  id="myprojects" class="text-light min-vh-100 p-5">
-            <h2 class="mb-3" id="header">Upcoming Tours</h2>
-            
-            <div class="d-lg-flex justify-content-center p-md-5">
-            
-               <div class="col-xl-4 mb-5 mb-xl-0" id="cardBody">
-                  <div class="card-body">
-                     <img src="./images/cover.jpg"
-                        alt="" class="card-img-top">
-                     
-                     <h5 class="card-title">My Portfolio Project</h5>
-                     <!-- <h6 class="card-subtitle mb-2 text-muted">My Portfolio Project</h6> -->
-                     <p class="card-text">
-                       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum, dignissimos!
-                     </p>
-                     <a target="_" href="https://gitlab.com/abian-156/s08" class="card-link">Link to Project Source Code</a>
-                     
-                  </div>
-               </div>
-             
-               <div class="col-xl-4 mb-5 mb-xl-0 mr-xl-5 ml-xl-5" id="cardBody">
-                  <div class="card-body">
-                     <img src="./images/cover.jpg"
-                        alt="" class="card-img-top">
-                     <h5 class="card-title">News Portal</h5>
-                     <!-- <h6 class="card-subtitle mb-2 text-muted">News Portal</h6> -->
-                     <p class="card-text">
-                       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum, dignissimos!
-                     </p>
-                     <a  target="_" href="https://gitlab.com/abian-156/s07" class="card-link">Link to Project Source Code</a>
-                    
-                  </div>
-               </div>
-               
-               <div class="col-xl-4 mb-5 mb-xl-0" id="cardBody">
-                  <div class="card-body">
-                     <img src="./images/cover.jpg"
-                        alt="" class="card-img-top">
-                     <h5 class="card-title">Registration Form</h5>
-                     
-                     <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum, dignissimos!
-                     </p>
-                     <a  target="_" href="https://gitlab.com/abian-156/s04" class="card-link">Link to Project Source Code</a>
-                  </div>
-               </div>
-             
-
-               
-            </div>
 
 
             <!-- other  project section start-->
-            <div  id="myprojects" class="text-light min-vh-100 p-5">
+            <div class="container-fluid">
+            <div  id="highlights" class="text-light min-vh-100 p-5">
                <div class="d-lg-flex justify-content-center p-md-5">
                
                   <div class="col-xl-4 mb-5 mb-xl-0" id="cardBody">
@@ -120,12 +75,12 @@
                         <img src="./images/cover.jpg"
                            alt="" class="card-img-top">
                         
-                        <h5 class="card-title">My Portfolio Project</h5>
+                        <h5 class="card-title">Baguio Daytour</h5>
                         <!-- <h6 class="card-subtitle mb-2 text-muted">My Portfolio Project</h6> -->
                         <p class="card-text">
                              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum, dignissimos!
                         </p>
-                        <a target="_" href="https://gitlab.com/abian-156/s08" class="card-link">Link to Project Source Code</a>
+                        <a target="_" href="https://gitlab.com/abian-156/s08" class="card-link">Link to Upcoming Tour</a>
                         
                      </div>
                   </div>
@@ -134,12 +89,12 @@
                      <div class="card-body">
                         <img src="./images/cover.jpg"
                            alt="" class="card-img-top">
-                        <h5 class="card-title">News Portal</h5>
+                        <h5 class="card-title">Anwagin-2D1N</h5>
                         <!-- <h6 class="card-subtitle mb-2 text-muted">News Portal</h6> -->
                         <p class="card-text">
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum, dignissimos! 
                         </p>
-                        <a  target="_" href="https://gitlab.com/abian-156/s07" class="card-link">Link to Project Source Code</a>
+                        <a  target="_" href="https://gitlab.com/abian-156/s07" class="card-link">Link to Upcoming Tour</a>
                        
                      </div>
                   </div>
@@ -148,21 +103,64 @@
                      <div class="card-body">
                         <img src="./images/cover.jpg"
                            alt="" class="card-img-top">
-                        <h5 class="card-title">Registration Form</h5>
+                        <h5 class="card-title">Buscalan-2D1N</h5>
                         
                         <p class="card-text">  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum, dignissimos!
                         </p>
-                        <a  target="_" href="https://gitlab.com/abian-156/s04" class="card-link">Link to Project Source Code</a>
+                        <a  target="_" href="https://gitlab.com/abian-156/s04" class="card-link">Link to Upcoming Tour</a>
                      </div>
-                  </div>
-                
+                    </div>
+                  <div>
+             </div>
+             </div>
 
-                  
-               </div>
-
-
+            <!--  <div  id="highlights" class="text-light min-vh-100 p-5">
+                <div class="d-lg-flex justify-content-center p-md-5">
+                 -->
+                   <div class="col-xl-4 mb-5 mb-xl-0" id="cardBody">
+                      <div class="card-body">
+                         <img src="./images/cover.jpg"
+                            alt="" class="card-img-top">
+                         
+                         <h5 class="card-title">Baguio Daytour</h5>
+                         <!-- <h6 class="card-subtitle mb-2 text-muted">My Portfolio Project</h6> -->
+                         <p class="card-text">
+                              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum, dignissimos!
+                         </p>
+                         <a target="_" href="https://gitlab.com/abian-156/s08" class="card-link">Link to Upcoming Tour</a>
+                         
+                      </div>
+                   </div>
+                 
+                   <div class="col-xl-4 mb-5 mb-xl-0 mr-xl-5 ml-xl-5" id="cardBody">
+                      <div class="card-body">
+                         <img src="./images/cover.jpg"
+                            alt="" class="card-img-top">
+                         <h5 class="card-title">Anwagin-2D1N</h5>
+                         <!-- <h6 class="card-subtitle mb-2 text-muted">News Portal</h6> -->
+                         <p class="card-text">
+                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum, dignissimos! 
+                         </p>
+                         <a  target="_" href="https://gitlab.com/abian-156/s07" class="card-link">Link to Upcoming Tour</a>
+                        
+                      </div>
+                   </div>
+                   
+                   <div class="col-xl-4 mb-5 mb-xl-0" id="cardBody">
+                      <div class="card-body">
+                         <img src="./images/cover.jpg"
+                            alt="" class="card-img-top">
+                         <h5 class="card-title">Buscalan-2D1N</h5>
+                         
+                         <p class="card-text">  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum, dignissimos!
+                         </p>
+                         <a  target="_" href="https://gitlab.com/abian-156/s04" class="card-link">Link to Upcoming Tour</a>
+                      </div>
+                     </div>
+           <!--         <div>
+              </div>
            
-          
+           -->
     <!-- js code-->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
