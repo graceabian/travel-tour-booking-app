@@ -1,5 +1,5 @@
 .navbar {
-  background-color: black;
+  background-color: darkcyan;
 }
 
 h3 {
@@ -21,3 +21,6 @@ h3 {
 body {
   background-color: darkcyan;
 }
+/* #highlights {
+  background-image: url("images/travel.png");
+} */
